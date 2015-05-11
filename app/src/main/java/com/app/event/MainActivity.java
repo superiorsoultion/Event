@@ -20,7 +20,7 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-       // Hello git
+
         // get date
         mCalendar = Calendar.getInstance();
         mToday[0] = mCalendar.get(Calendar.DAY_OF_MONTH);
